@@ -6,7 +6,7 @@ from hello_world import Greeter
 class MyGreeterTest(unittest.TestCase):
 	def test_default_greeting_set(self):
 		greeter=Greeter()
-		self.assertEqual(greeter.message,'Hello Peps!!')
+		self.assertEqual(greeter.message,'Hello Peeps!!')
 
 
 if __name__=='__main__':
